@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+header{
+    background-color: lightcoral;
+}
+
+main{
+    background-color: aqua;
+}
+
+footer{
+    background-color: blueviolet;
+}
