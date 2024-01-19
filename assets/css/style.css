@@ -188,6 +188,16 @@ main {
     color: #fafafa;
 }
 
+/* gallery section  */
+#photos{
+    line-height: 0;
+}
+
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+
  
 /* Footer */
 #social-media{
@@ -205,6 +215,13 @@ main {
 }
 
 /* adding media-query */
+
+@media screen and (min-width: 576px){
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 @media screen and (min-width: 768px){
     
     nav {
@@ -258,7 +275,10 @@ main {
         align-self: flex-end;
     }
 
-    
+    #photos{
+        column-count: 3;
+        
+    }
     
     
 }
@@ -267,6 +287,11 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos{
+        column-count: 4;
+        
     }
 }
 
